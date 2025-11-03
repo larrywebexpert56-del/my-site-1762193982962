@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>earnSphere nSphere - Youuur Financial Partner</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">EarnSphere</div>
+            <nav>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#hero" data-section="hero">Home</a></li>
+                    <li><a href="#about" data-section="about">About Us</a></li>
+                    <li><a href="#services" data-section="services">Services</a></li>
+                    <li><a href="#calculator" data-section="calculator">Calculator</a></li>
+                    <li><a href="#testimonials" data-section="testimonials">Testimonials</a></li>
+                    <li><a href="#contact" data-section="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Empowering Your Financial Journey</h1>
+                    <p>Innovative solutions for smart investments and secure futures. Let's grow together.</p>
+                    <a href="#services" class="btn primary-btn">Explore Services</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://picsum.photos/id/237/600/400" alt="Financial Growth" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section">
+            <div class="container">
+                <h2>About EarnSphere</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="https://picsum.photos/id/238/500/350" alt="Team Collaboration" loading="lazy">
+                    </div>
+                    <div class="about-content">
+                        <h3>Our Mission</h3>
+                        <p>At EarnSphere, we believe in making financial success accessible to everyone. Our mission is to provide transparent, reliable, and user-friendly tools and advice that empower individuals and businesses to achieve their financial goals.</p>
+                        <p>With years of expertise and a commitment to innovation, we're constantly evolving to meet the dynamic needs of the market.</p>
+                        <a href="#contact" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="https://picsum.photos/id/239/300/200" alt="Investment Planning" loading="lazy">
+                        <h3>Investment Planning</h3>
+                        <p>Tailored strategies to grow your wealth, from stocks to real estate.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://picsum.photos/id/240/300/200" alt="Financial Advisory" loading="lazy">
+                        <h3>Financial Advisory</h3>
+                        <p>Expert guidance on budgeting, savings, and debt management.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://picsum.photos/id/241/300/200" alt="Retirement Solutions" loading="lazy">
+                        <h3>Retirement Solutions</h3>
+                        <p>Secure your future with our comprehensive retirement plans.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="calculator" class="calculator-section section">
+            <div class="container">
+                <h2>Financial Calculator</h2>
+                <p>Use our simple calculator for quick arithmetic operations.</p>
+                <div class="calculator-container">
+                    <div class="calculator-display" id="calculatorDisplay">0</div>
+                    <div class="calculator-buttons">
+                        <button class="btn-calc clear" data-action="clear">AC</button>
+                        <button class="btn-calc delete" data-action="delete">DEL</button>
+                        <button class="btn-calc operator" data-action="operator">%</button>
+                        <button class="btn-calc operator" data-action="operator">/</button>
+                        <button class="btn-calc number">7</button>
+                        <button class="btn-calc number">8</button>
+                        <button class="btn-calc number">9</button>
+                        <button class="btn-calc operator" data-action="operator">*</button>
+                        <button class="btn-calc number">4</button>
+                        <button class="btn-calc number">5</button>
+                        <button class="btn-calc number">6</button>
+                        <button class="btn-calc operator" data-action="operator">-</button>
+                        <button class="btn-calc number">1</button>
+                        <button class="btn-calc number">2</button>
+                        <button class="btn-calc number">3</button>
+                        <button class="btn-calc operator" data-action="operator">+</button>
+                        <button class="btn-calc number zero">0</button>
+                        <button class="btn-calc number decimal">.</button>
+                        <button class="btn-calc equals" data-action="equals">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section section">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p>"EarnSphere transformed my financial outlook. Their tools are intuitive, and their advice is invaluable. Highly recommend!"</p>
+                        <div class="client-info">
+                            <img src="https://picsum.photos/id/64/50/50" alt="Client 1" loading="lazy">
+                            <span>Jane Doe, Entrepreneur</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Finally, a platform that makes sense of complex investments. EarnSphere is a game-changer for anyone serious about their finances."</p>
+                        <div class="client-info">
+                            <img src="https://picsum.photos/id/65/50/50" alt="Client 2" loading="lazy">
+                            <span>John Smith, Investor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have questions or need personalized advice? Contact us today!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="style-toggles" class="style-toggles-section section">
+            <div class="container">
+                <h2>Customize Your Experience</h2>
+                <div class="toggle-group">
+                    <button id="themeToggle" class="btn secondary-btn">Toggle Dark Mode</button>
+                    <button id="fontSizeToggle" class="btn secondary-btn">Increase Font Size</button>
+                    <button id="accentColorToggle" class="btn secondary-btn">Change Accent Color</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 EarnSphere. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                <a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/calculator.js"></script>
+</body>
+</html>
